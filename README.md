@@ -1,5 +1,5 @@
 ---
-title: My LLM App
+title: Social Listening Team
 emoji: 🚀
 colorFrom: blue
 colorTo: indigo
