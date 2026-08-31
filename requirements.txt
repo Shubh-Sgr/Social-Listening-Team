@@ -3,4 +3,4 @@ langchain-groq
 langchain-community
 tavily-python
 audioop-lts
-gradio
+gradio>=5.0.0
