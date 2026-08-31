@@ -17,7 +17,7 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
 
 # --- 2. AGENT LOGIC ---
 # Using Llama 3.3 for high-speed reasoning
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0.7)
 search_tool = TavilySearchResults(k=3)
 
 class AgentState(TypedDict):
