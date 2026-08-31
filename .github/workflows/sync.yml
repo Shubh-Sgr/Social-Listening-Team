@@ -13,6 +13,6 @@ jobs:
       - uses: huggingface/hub-sync@v0.1.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: YOUR_HF_USERNAME/YOUR_SPACE_NAME
+          huggingface_repo_id: Shubh-91/Social-Listening-Team
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: space
