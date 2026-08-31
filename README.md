@@ -1,12 +1,13 @@
-title: Social Listening Team
-emoji: 📈
-colorFrom: indigo
-colorTo: purple
-sdk: gradio
-sdk_version: 6.14.0
-python_version: '3.13'
+---
+title: My LLM App
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.38.0
 app_file: app.py
 pinned: false
+---
 
-
-Live Demo Link:- https://huggingface.co/spaces/Shubh-91/Social-Listening-Team
+# My Application
+This repository syncs from GitHub to Hugging Face Spaces.
