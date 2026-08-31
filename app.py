@@ -133,9 +133,9 @@ with gr.Blocks(css=CSS, title="TrendScout AI") as demo:
 
 # --- 6. LAUNCH ---
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 7860))
     demo.launch(
-        server_name="0.0.0.0", 
-        server_port=int(os.environ.get("PORT", 7860)),
-        theme="soft", # Apply theme here instead of constructor
-        footer_links=["gradio"]
+        server_name="0.0.0.0",
+        server_port=port,
+        theme="soft"
     )
